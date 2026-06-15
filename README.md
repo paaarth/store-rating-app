@@ -66,7 +66,6 @@ mvn spring-boot:run
 
 # Terminal 2
 cd frontend
-npm install
 npm start
 ```
 
