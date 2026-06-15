@@ -51,8 +51,6 @@ This will also create a default admin account:
 
 ### 2. Single Server Run
 
-Build the React app and copy it into the Spring Boot static resources folder, then run only the backend:
-
 ```bash
 # 1. Build the frontend
 cd frontend
