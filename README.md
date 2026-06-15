@@ -46,7 +46,7 @@ psql -U postgres -d store_rating_db -f database/schema.sql
 
 This will also create a default admin account:
 
-- Email: `admin@storerating.com`
+- Email: `admin@gmail.com`
 - Password: `Admin@123`
 
 ### 2. Single Server Run

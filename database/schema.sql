@@ -24,5 +24,5 @@ CREATE TABLE IF NOT EXISTS ratings (
 );
 
 INSERT INTO users (name, email, password, address, role)
-VALUES ('System Administrator Account User', 'admin@storerating.com', 'Admin@123', 'Head Office, Main Street', 'ADMIN')
+VALUES ('System Administrator', 'admin@gmail.com', 'Admin@123', 'Head Office, Delhi', 'ADMIN')
 ON CONFLICT (email) DO NOTHING;
