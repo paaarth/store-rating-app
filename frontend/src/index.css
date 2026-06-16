@@ -147,6 +147,7 @@ html, body {
 
 /* CARDS */
 .card {
+  width: auto;
   background-color: var(--card-bg);
   border-radius: var(--radius);
   padding: 24px;
@@ -419,7 +420,7 @@ td a {
 }
 
 .filter-bar .form-input, .filter-bar .form-select {
-  width: auto;
+  width: 300px;
   flex: 1;
   min-width: 160px;
   margin-bottom: 0;

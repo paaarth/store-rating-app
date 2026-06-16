@@ -18,7 +18,6 @@ const UserStores = () => {
 
   useEffect(() => {
     fetchStores();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [search, page, sortBy]);
 
   const fetchStores = async () => {
@@ -141,7 +140,7 @@ const UserStores = () => {
                   <div className="store-avatar">{store.name.charAt(0).toUpperCase()}</div>
                   <div>
                     <div className="store-name">{store.name}</div>
-                    <div className="store-address">{store.address}</div>
+                    <div className="store-address">{store.address.substring(0, 40) + "..."}</div>
                   </div>
                 </div>
 
