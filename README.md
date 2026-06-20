@@ -5,7 +5,7 @@ A full stack web application where users can sign up, browse stores, and submit 
 ## Tech Stack
 
 - **Frontend**: React JS (React Router, Axios)
-- **Backend**: Java 21, Spring Boot 3, Spring Data JPA
+- **Backend**: Java 21, Spring Boot 4, Spring Data JPA
 - **Database**: PostgreSQL
 
 ## Features
